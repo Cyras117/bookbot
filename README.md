@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # bookbot
 =======
 # 🤖 Bookbot: Text Analysis in Python
@@ -21,5 +20,3 @@ Before you begin, make sure you have:
 - A code editor (VS Code recommended)
 - Git (for version control)
 - A `.txt` file containing book content to analyze
-
->>>>>>> bf146ec (Initial commit)
