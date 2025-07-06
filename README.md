@@ -18,3 +18,6 @@ Before you begin, make sure you have:
 - A code editor (VS Code recommended)
 - Git (for version control)
 - A `.txt` file containing book content to analyze
+# bookbot
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
