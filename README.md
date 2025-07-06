@@ -1,5 +1,3 @@
-# bookbot
-=======
 # 🤖 Bookbot: Text Analysis in Python
 
 Welcome to **Bookbot** — a Python project that scans and analyzes a text file to generate insightful statistics about its content. Built as an introductory programming challenge, this project is perfect for practicing Python fundamentals and exploring real-world development concepts.
