@@ -1,17 +1,17 @@
 from stats import get_num_words, get_letter_count
+import sys
 
 def get_book_text(filepath):
     with open(filepath) as f:
         return f.read()
 
-def sort_on(itens):
-    return itens['count']
-
 def main():
-    filepath = "/home/saryc/bootdev/projects/bookbot/books/frankenstein.txt"
-    text = get_book_text(filepath)
+    if len(sys.argv) < 2:
+        print("Usage: python3 main.py <path_to_book>")
+        sys.exit(1)
+    
+    text = get_book_text(sys.argv[1])
     count = get_letter_count(text)
-    count.sort(key=sort_on, reverse=True)
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
