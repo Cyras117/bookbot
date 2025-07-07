@@ -1,2 +1,4 @@
 ###Folders###
 /books
+/__pycache__
+/tests
