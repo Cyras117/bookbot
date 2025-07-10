@@ -40,15 +40,6 @@ python bookbot.py yourfile.txt
 
 Replace `yourfile.txt` with the name of your text file. Bookbot will read the file, perform the analysis, and display the results in the terminal.
 
-## 🧪 Testing
-
-To ensure Bookbot is working correctly, you can run the included unit tests. These tests verify the functionality of the word count and letter frequency analysis.
-
-Run the tests using the following command:
-
-```bash
-python -m unittest discover
-```
 
 ## 📦 Dependencies
 
@@ -66,13 +57,10 @@ Bookbot requires Python 3.10 or higher. No additional packages or libraries are 
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please submit a pull request. See `CONTRIBUTING.md` for more details.
+Contributions are welcome! If you have suggestions for improvements or new features, please submit a pull request.
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ---
-
-Enjoy analyzing your text files with Bookbot! Happy coding!
-
